@@ -33,7 +33,7 @@ class linear_regression:
     X = np.column_stack((X, np.ones(n)))
     
     # get the parameter w and b
-    theta=np.array(mat(X.T.dot(X)).I.dot(X.T).dot(y))
+    theta=np.array(np.mat(X.T.dot(X)).I.dot(X.T).dot(y))
     self.w = theta[:-1]
     self.b = theta[-1]
     return theta
