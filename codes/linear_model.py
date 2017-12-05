@@ -3,7 +3,7 @@ import numpy as np
 
 class linear_model:
   """
-  linear model class, this is linear regression
+  linear model class, this is linear models, such as linear regression, logistic regression
   """
   def __init__(self):
     self.rmse = None
