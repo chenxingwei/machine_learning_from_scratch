@@ -1,7 +1,7 @@
 import os, glob, math
 import numpy as np
 
-class linear_model:
+class linear_regression:
   """
   linear model class, this is linear regression
   """
