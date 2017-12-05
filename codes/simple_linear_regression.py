@@ -52,9 +52,8 @@ class linear_model:
     if len(X.shape) > 1:
       X = X.reshape(n)
     y_pred = self.w * X + self.b
-    if y == None:
-      self.y_pred = y_pred
-    else:
+    self.y_pred = y_pred
+    if y != None:
       if n != len(y):
         print "Error, the input X, y should be the same length, while you have len(X)=%d and len(y)=%d"%(n, len(y))
       y = np.array(y)
