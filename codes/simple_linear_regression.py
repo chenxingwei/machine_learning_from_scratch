@@ -1,4 +1,3 @@
-```python
 import os, glob, math
 import numpy as np
 
@@ -63,5 +62,4 @@ class linear_model:
         y = y.reshape(n)
       self.rmse = np.sqrt(np.sum(np.square(y-y_pred))) / n
     return y_pred
-      
-```
+
