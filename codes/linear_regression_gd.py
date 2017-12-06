@@ -43,38 +43,25 @@ class linear_regression_GD:
     # get the parameter w and b, first initize
     theta = np.random.randn(m+1)
     num = 0
-    loss1 = self.getLoss(theta)
     for i in xrange(epoch):
-      theta -= learning_rate * self.getGradient(theta)
-      loss2 = self.getLoss(theta, methods)
-      if abs(loss2-loss1) < tol:
-        num += 1
-      else:
-        num = 0
-      loss1 = loss2
+      theta -= learning_rate * self.getGradient(theta, methods)
       self.epoch = i
-      #if num >= 10:
-      #  break
     self.w = theta[:-1]
     self.b = theta[-1]
     return theta
-    
-  def getLoss(self, theta, methods="OLS"):
-    """
-    @param theta, the parameters for the linear model
-    @return the loss of this model with given parameters
-    """
-    if methods == "OLS":
-      # divide self.n first to avoid float overflow to some extent.
-      return np.sum(np.square((self.X.dot(theta) - self.y)/self.n) * self.n)
-    else:
-      print 'Error, methods now can only be "OLS"'
   
-  def getGradient(self, theta):
+  def getGradient(self, theta, methods="OLS"):
     """
     Get the gradient of the loss function using parameter theta
     """
-    delta = np.sum(self.X.T * (self.X.dot(theta)-self.y), axis=1)
+    methods_from = ["OLS", "MAE"]
+    if methods == "OLS":
+      delta = np.sum(self.X.T * (self.X.dot(theta)-self.y), axis=1)
+    elif methods == 'MAE':
+      judge = np.sign(self.X.dot(theta) - self.y)
+      delta = np.sum(self.X * judge.reshape(self.n,1) / self.n, axis=0)
+    else:
+      print "Error, the methods parameter can only be ", methods_from
     return delta
   
   def predict(self, X, y=None):
@@ -97,4 +84,3 @@ class linear_regression_GD:
         y = y.reshape(n)
       self.rmse = np.sqrt(np.sum(np.square(y-y_pred))) / n
     return self.y_pred
-  
