@@ -14,6 +14,8 @@ This repository will using Python, not using machine learning or deep learning p
 
 2. ![Linear Regression with Gradient Descent](https://github.com/chenxingwei/machine_learning_from_scratch/blob/master/algorithm/2.linearRegressionGradientDescent.md)
 
+    > Codes: ![linear regression with gradient descent](https://github.com/chenxingwei/machine_learning_from_scratch/blob/master/codes/linear_regression_gd.py)
+
 3. Logistic Regression (coming soon)
 
 
