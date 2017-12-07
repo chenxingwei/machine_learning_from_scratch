@@ -2,9 +2,9 @@
 
 ## Introduction
 
-In this repository, I will gradually implement some freqently used machine learning algorithms from scratch. This would include both the intuitive of the algorithms, and the mathematics bebind. Just ignore the math part if it troubles you. 
+In this repository, I will gradually implement some freqently used machine learning algorithms from scratch with Python. This would include both the intuitive of the algorithms and mathematics bebind. Just ignore the math part if it troubles you. 
 
-This repository will use Python, not using machine learning or deep learning package such as sklearn, tensorflow etc. But instead we will use [Numpy](http://www.numpy.org/) to facilitate numerical computation. This repository will be written using English, if you find your English or my English hard to understand, please check the Chinese repository-![中文版](https://github.com/chenxingwei/machine_learning_from_scrach_Chinese/tree/master).
+Machine learning or deep learning package such as sklearn, tensorflow etc will not be used. We will only use [Numpy](http://www.numpy.org/) to facilitate numerical computation. All texts will be written using English, if you find my English hard to understand, please check the Chinese repository-![中文版](https://github.com/chenxingwei/machine_learning_from_scrach_Chinese/tree/master).
 
 ## Algorithm Index
 
