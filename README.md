@@ -10,7 +10,7 @@ Machine learning or deep learning package such as sklearn, tensorflow etc will n
 
 1. [Linear Regression](https://github.com/chenxingwei/machine_learning_from_scratch/blob/master/algorithm/1.linearRegression.md)
 
-    > Codes: [Simple linear regression](https://github.com/chenxingwei/machine_learning_from_scratch/blob/master/codes/simple_linear_regression.py), ![Linear regression](https://github.com/chenxingwei/machine_learning_from_scratch/blob/master/codes/linear_regression.py)
+    > Codes: [Simple linear regression](https://github.com/chenxingwei/machine_learning_from_scratch/blob/master/codes/simple_linear_regression.py), [Linear regression](https://github.com/chenxingwei/machine_learning_from_scratch/blob/master/codes/linear_regression.py)
 
 2. [Linear Regression with Gradient Descent](https://github.com/chenxingwei/machine_learning_from_scratch/blob/master/algorithm/2.linearRegressionGradientDescent.md)
 
