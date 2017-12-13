@@ -24,3 +24,24 @@ Machine learning or deep learning package such as sklearn, tensorflow etc will n
 
 5. [Softmax](https://github.com/chenxingwei/machine_learning_from_scratch/blob/master/algorithm/5.softmax.md)
     > Codes: 
+
+6. [KNN]()
+    > Codes:
+
+7. [Kmeans]()
+    > Codes:
+
+8. [Naive Bayes]()
+    > Codes:
+
+9. [Decision Tree]()
+    > Codes:
+
+10. [Random Forest]()
+    > Codes:
+
+11. [SVM]()
+    > Codes:
+
+## Summary
+
