@@ -25,22 +25,22 @@ Machine learning or deep learning package such as sklearn, tensorflow etc will n
 5. [Softmax](https://github.com/chenxingwei/machine_learning_from_scratch/blob/master/algorithm/5.softmax.md)
     > Codes: 
 
-6. [KNN]()
+6. [KNN-looking forward]()
     > Codes:
 
-7. [Kmeans]()
+7. [Kmeans-looking forward]()
     > Codes:
 
-8. [Naive Bayes]()
+8. [Naive Bayes-looking forward]()
     > Codes:
 
-9. [Decision Tree]()
+9. [Decision Tree-looking forward]()
     > Codes:
 
-10. [Random Forest]()
+10. [Random Forest-looking forward]()
     > Codes:
 
-11. [SVM]()
+11. [SVM-looking forward]()
     > Codes:
 
 ## Summary
