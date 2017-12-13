@@ -20,6 +20,7 @@ Machine learning or deep learning package such as sklearn, tensorflow etc will n
     > Codes: [Logistic regression with gradient descent](https://github.com/chenxingwei/machine_learning_from_scratch/blob/master/codes/logistic_regression.py)
 
 4. [Regularization](https://github.com/chenxingwei/machine_learning_from_scratch/blob/master/algorithm/4.regularization.md)
+    > Codes: [Linear regression with L2-norm regularization](https://github.com/chenxingwei/machine_learning_from_scratch/blob/master/codes/linear_regression_l2.py), [Logistic regression with L2-norm regularization](https://github.com/chenxingwei/machine_learning_from_scratch/blob/master/codes/logistic_regression_l2.py)
+
+5. [Softmax](https://github.com/chenxingwei/machine_learning_from_scratch/blob/master/algorithm/5.softmax.md)
     > Codes: 
-
-
