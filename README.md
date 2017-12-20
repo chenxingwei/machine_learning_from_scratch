@@ -23,24 +23,31 @@ Machine learning or deep learning package such as sklearn, tensorflow etc will n
     > Codes: [Linear regression with L2-norm regularization](https://github.com/chenxingwei/machine_learning_from_scratch/blob/master/codes/linear_regression_l2.py), [Logistic regression with L2-norm regularization](https://github.com/chenxingwei/machine_learning_from_scratch/blob/master/codes/logistic_regression_l2.py)
 
 5. [KNN](https://github.com/chenxingwei/machine_learning_from_scratch/blob/master/algorithm/5.KNN.md)
-    > Codes: [K Nearest Neighbors](https://github.com/chenxingwei/machine_learning_from_scratch/blob/master/codes/KNN.py)
+    
+    > Codes: [K Nearest Neighbors](https://github.com/chenxingwei/machine_learning_from_scratch/blob/master/codes/KNN.py)
 
 6. [Softmax](https://github.com/chenxingwei/machine_learning_from_scratch/blob/master/algorithm/6.softmax.md)
+    
     > Codes: 
 
 7. [Kmeans-looking forward]()
+    
     > Codes:
 
 8. [Naive Bayes-looking forward]()
+    
     > Codes:
 
 9. [Decision Tree-looking forward]()
+    
     > Codes:
 
 10. [Random Forest-looking forward]()
+    
     > Codes:
 
 11. [SVM-looking forward]()
+    
     > Codes:
 
 ## Summary
