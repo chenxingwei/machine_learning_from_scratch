@@ -30,7 +30,7 @@ Machine learning or deep learning package such as sklearn, tensorflow etc will n
     
     > Codes: [Softmax regression with gradient descent](https://github.com/chenxingwei/machine_learning_from_scratch/blob/master/codes/softmax_regression.py)
 
-7. [Kmeans clustering]()
+7. [Kmeans clustering](https://github.com/chenxingwei/machine_learning_from_scratch/blob/master/algorithm/7.kmeans.md)
     
     > Codes:
 
