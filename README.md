@@ -50,5 +50,9 @@ Machine learning or deep learning package such as sklearn, tensorflow etc will n
     
     > Codes:
 
+12. [PCA - looking forward]()
+
+    > Codes:
+
 ## Summary
 
