@@ -32,9 +32,9 @@ Machine learning or deep learning package such as sklearn, tensorflow etc will n
 
 7. [Kmeans clustering](https://github.com/chenxingwei/machine_learning_from_scratch/blob/master/algorithm/7.kmeans.md)
     
-    > Codes:
+    > Codes: [Kmeans](https://github.com/chenxingwei/machine_learning_from_scratch/blob/master/codes/kmeans.py)
 
-8. [Naive Bayes-looking forward]()
+8. [Naive Bayes](https://github.com/chenxingwei/machine_learning_from_scratch/blob/master/algorithm/8.naiveBayes.md)
     
     > Codes:
 
