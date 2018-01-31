@@ -27,7 +27,8 @@ class logistic_regression_GD:
     self.n = n
     m = len(X[0])
     if len(y) != n:
-      print "Error, the input X, y should be the same length, while you have len(X)=%d and len(y)=%d"%(n, len(y))
+      print "Error, the input X, y should be the same length, \
+      while you have len(X)=%d and len(y)=%d"%(n, len(y))
     
     # following codes reformat the input
     X = np.array(X)
@@ -77,7 +78,8 @@ class logistic_regression_GD:
     self.y_pred = y_pred
     if y != None:
       if n != len(y):
-        print "Error, the input X, y should be the same length, while you have len(X)=%d and len(y)=%d"%(n, len(y))
+        print "Error, the input X, y should be the same length, \
+        while you have len(X)=%d and len(y)=%d"%(n, len(y))
       y = np.array(y)
       y_pred = y_pred.reshape(n)
       if len(y.shape) != 1:
